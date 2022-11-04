@@ -2,7 +2,6 @@ var a = [1,2,3]
 a[10] = 90;
 
 console.log(a);
-
 b =[undefined];
 
 b[3] = 3;
