@@ -1,5 +1,7 @@
 const arr = [1,1,1,1,2,2,2,2,3,4,4,4,4,5,5,5,5];
 
+const arr2 = [1,2,3,3,1,2,2,2,2];
+
 
 
 const uniqueElement = (array) =>{
@@ -12,4 +14,4 @@ const uniqueElement = (array) =>{
     return element;
 }
 
-console.log(uniqueElement(arr));
+console.log(uniqueElement(arr2));
