@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.color-hover{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.color-hover .color{
+    height: 100px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.red{
+    background: red;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.violet{
+    background: violet;
+}
+.orange{
+    background: orange;
+}
+.pink{
+    background: pink;
+} */
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    font-family: system-ui;
+  }
+  h1 {
+    background: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  span {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: monospace;
+  }
