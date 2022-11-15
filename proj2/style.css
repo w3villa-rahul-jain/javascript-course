@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* 
-.color-hover{
+
+/* .our-container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+
+ .color-hover{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +21,7 @@
 .color-hover .color{
     height: 100px;
     width: 200px;
-    border: 1px solid red;
+   
 }
 
 .red{
@@ -33,10 +39,16 @@
     background: orange;
 }
 .pink{
-    background: pink;
-} */
+    background: pink; 
+} 
 
-body {
+.center{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+/* body {
     height: 100vh;
     margin: 0;
     padding: 1rem;
@@ -55,4 +67,4 @@ body {
     font-size: 1rem;
     font-weight: normal;
     font-family: monospace;
-  }
+  } */
