@@ -88,7 +88,7 @@ const courses = [
 function generateList() {
   const ul = document.querySelector(".list-group");
   ul.innerHTML = "";
-  courses.slice(0,5).map((course, index) => {
+  courses.slice(0,5).map((course) => {
     const li = document.createElement("li");
     li.classList.add("list-group-item");
 
