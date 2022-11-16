@@ -88,7 +88,7 @@ const courses = [
 function generateList() {
   const ul = document.querySelector(".list-group");
   ul.innerHTML = "";
-  courses.map((course) => {
+  courses.slice(0,5).map((course, index) => {
     const li = document.createElement("li");
     li.classList.add("list-group-item");
 
@@ -100,6 +100,7 @@ function generateList() {
     span.appendChild(price);
 
     li.appendChild(span);
+    
     ul.appendChild(li);
   });
 }
