@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.main .images-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+.flip{
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    border: 2px solid gray;
+    outline: 1px solid black;
+}
+
+.swap-image > img{
+    display: none;
+} 
+

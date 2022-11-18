@@ -2,16 +2,17 @@
 
 fetch("https://api.chucknorris.io/jokes/random")
 .then((response) => {
-    console.log(response);
+    return response.json();
+})
+.then((data) => {
+    // console.log("Data is", data);
+    var joke = data.value;
+    console.log("Joke", joke);
 })
 .catch();
 
 
 
 
-fetch("https://api.chucknorris.io/jokes/categories")
-.then((response) => {
-    return response;
-})
-.catch();
+
 
